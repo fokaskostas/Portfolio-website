@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kostas Fokas Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-6">
+            <img class="title-logo" src="images/udacity_logo.png" height="100" width="100" alt="Udacity logo">
+        </div>
+
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Kostas Fokas</h1>
+          <h3>Front-end Ninja</h3>
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <main class="row">
+        <div class="col-md-12">
+          <img class= "img-responsive" src="images/large_image.jpg" height="350" width="1140" alt="Main Image">
+        </div>
+      </main>
+
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </section>
+
+      <section class="row text-center">
+        <div class="col-md-4">
+          <img src="images/movie_trailer_website.jpg" height="200" width="350" data-toggle="modal" data-target="#project1" alt="Movie trailers">
+          <h3>MOVIE TRAILER WEBSITE</h3>
+          <p><a href="https://github.com/fokaskostas/movie-trailer-website" target="_blank">Link to project</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/item_catalog.png" height="200" width="350" data-toggle="modal" data-target="#project2" alt="Project 2">
+          <h3>PROJECT 2</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/map.jpg" height="200" width="350" alt="Project 3">
+          <h3>PROJECT 3</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+      </section>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Movie trailer website</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/movie_trailer_website.jpg" alt="Movie trailers">
+            <h5>This was my first project in this class. I learned a lot about Python.</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Catalog app</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/item_catalog.png" alt="Catalog app">
+            <h5>This was my second project in this class.</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
